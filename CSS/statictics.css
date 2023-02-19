@@ -1,0 +1,27 @@
+.infoBar {
+    display: flex;
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.infoBarBlock {
+    width: 100%;
+    display: flex;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoBarLine {
+    width: calc(25% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

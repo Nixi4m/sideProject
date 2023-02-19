@@ -1,0 +1,64 @@
+.lvlPanel {
+    box-sizing: border-box;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(100vh - 20px);
+}
+
+.lvlPanelBlock {
+    height: calc(25vh - 25px);
+    display: flex;
+}
+
+.lvlBlock {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.firstLvlItem {
+    background: rgb(146,141,209);
+    background: linear-gradient(90deg, rgba(146,141,209,1) 0%, rgba(207,51,130,1) 100%);
+}
+
+.secondLvlItem {
+    background: rgb(146,141,209);
+    background: linear-gradient(90deg, rgba(146,141,209,1) 0%, rgba(207,51,130,1) 100%);
+}
+
+.thirdLvlItem {
+    background: rgb(146,141,209);
+    background: linear-gradient(90deg, rgba(146,141,209,1) 0%, rgba(207,51,130,1) 100%);
+}
+
+.fourthLvlItem {
+    background: rgb(146,141,209);
+    background: linear-gradient(90deg, rgba(146,141,209,1) 0%, rgba(207,51,130,1) 100%);
+}
+
+.firstLvlBoard {
+    width: calc(100% - 50px);
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.firstUnit {
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/МихаилКруг.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+#clickerBody {
+    display: none;
+}

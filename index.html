@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' href='./CSS/style.css'/>
+    <link rel='stylesheet' type='text/css' href='./CSS/menu.css'/>
+    <link rel='stylesheet' type='text/css' href='/CSS/firstLvl.css'>
+    <link rel='stylesheet' type='text/css' href='/CSS/upgradeBtns.css'>
+    <link rel='stylesheet' type='text/css' href='/CSS/clickArea.css'>
+    <link rel='stylesheet' type='text/css' href='/CSS/statictics.css'>
+    <link rel='stylesheet' type='text/css' href='./CSS/normalize.css'/>
+</head>
+<body class="screen">
+    <section id="menu">
+        <div class="menu-wrapper">
+            <div class="menu-list">
+                <ul>
+                    <li class="menu-item">
+                        <button class="menu-btn" id="startGame">
+                            Начать игру
+                        </button>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-btn">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Дай 2 грн</a>
+                        </button>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-btn">
+                            Настройки
+                        </button>
+                    </li>
+                    <li class="menu-item">
+                        <button class="menu-btn" id="balls">
+                            Титры
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="clickerBody">
+        <div class="lvlPanel">
+            <div class="lvlPanelBlock" id="firstLvl">
+                <div class="lvlBlock firstLvlItem">
+                    <div class="firstLvlBoard" id="unitBoard1">
+    
+                    </div>
+                    <div class="firstLvlUpgradeBar">
+                        <button class="firstLvlPlus plusOneLvlOne"> +1 </button>
+                        <button class="firstLvlPlus plusTenLvlOne"> +10 </button>
+                        <button class="firstLvlPlus plusTenPercentLvlOne"> 10% </button>
+                        <button class="firstLvlPlus plusFiftyPercentLvlOne"> 50% </button>
+                        <button class="firstLvlPlus plusMaxLvlOne"> max </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clickArea">
+            <div class="infoBar">
+                <div class="infoBarLine">
+                    <p> Click power</p>
+                    <div class="infoBarBlock clickPower" id="clickPowerCounter"> 0 </div>
+                </div>
+                <div class="infoBarLine">
+                    <p> Income</p>
+                    <div class="infoBarBlock income" id="incomeCounter"> 0 p/s </div>
+                </div>
+                <div class="infoBarLine">
+                    <p> Points</p>
+                    <div class="infoBarBlock pointsCounter" id="pointCounter"> 0p </div>
+                </div>
+                <div class="infoBarLine">
+                    <p> Click counter</p>
+                    <div class="infoBarBlock clickCounter" id="clickCounter"> 0 </div>
+                </div>
+            </div>
+            <div id="ebalo" class="ebalnik">
+            </div>
+        </div>
+    </section>
+    <script src="./JS/index.js"></script>
+</body>
+</html>

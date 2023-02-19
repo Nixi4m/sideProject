@@ -1,0 +1,19 @@
+.firstLvlUpgradeBar {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    align-items: flex-end;
+}
+
+.firstLvlPlus {
+    width: 100%;
+    height: calc(20% - 4px);
+    color: rgb(2, 1, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.firstLvlPlus:not(:last-child) {
+    margin-bottom: 5px;
+}
+

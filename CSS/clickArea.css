@@ -1,0 +1,59 @@
+.clickArea {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20%;
+}
+
+.infoBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoBarBlock {
+    background-color: bisque;
+    height: 25px;
+    width: 50px;
+}
+
+.ebalnik {
+    display: flex;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    background-image: url('/img/МихаилКруг.png');
+    background-size: cover;        
+    transition: width 2s, height 2s, transform 2s;             
+}
+
+.ebalnik img {
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.ebalnik:hover {
+    width: 300px;
+    height: 300px;
+    animation-name: rotate360;
+    animation-duration: 1000ms;
+}
+
+.ebalnik:active {
+    filter: hue-rotate(60deg)
+}
+
+@keyframes rotate360 {
+    from {
+        filter: hue-rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(60deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
