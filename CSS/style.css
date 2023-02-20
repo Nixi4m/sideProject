@@ -26,7 +26,7 @@
   align-self: center;
   width: 400px;
   height: 400px;
-  background-image: url("/img/МихаилКруг.png");
+  background-image: url("../img/МихаилКруг.png");
   background-size: cover;
   transition: width 2s, height 2s, transform 2s;
 }
@@ -121,7 +121,7 @@
 .firstUnit {
   width: 7.69%;
   height: 20%;
-  background-image: url("/img/МихаилКруг.png");
+  background-image: url("../img/МихаилКруг.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
