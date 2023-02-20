@@ -46,3 +46,11 @@
     text-decoration: none;
     color: black;
 }
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+}
